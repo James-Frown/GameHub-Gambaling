@@ -12,7 +12,7 @@ const home = () => {
         <>
             <div>
                 <h1>
-                    you are logged in
+                    you have logged in
                 </h1>
                 <button onClick={logOut}>
                     logout

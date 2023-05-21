@@ -8,10 +8,6 @@ const login = () => {
         console.log("login clicked");
     }
 
-    function signupHandler() {
-        console.log("signup clicked");
-    }
-
     return (
         <>
             <div>
@@ -38,7 +34,6 @@ const login = () => {
                         </label>
                         <div>
                             <button onClick={loginHandler}>Login</button>
-                            <button onClick={signupHandler}>SignUp</button>
                         </div>
                     </form>
                 </div>

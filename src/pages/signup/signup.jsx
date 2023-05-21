@@ -13,7 +13,7 @@ const signup = () => {
             <div>
                 <div>
                     <h1>
-                        Login Page
+                        SignUp Page
                     </h1>
                     <p>
                         Enter Your Details...
