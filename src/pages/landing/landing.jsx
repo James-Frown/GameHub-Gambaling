@@ -1,7 +1,11 @@
 const signup = () => {
 
-    function signupHandler() {
+    function signupPage() {
         console.log("signup clicked");
+    }
+
+    function loginPage() {
+        console.log("login clicked");
     }
 
     return (
@@ -18,7 +22,8 @@ const signup = () => {
 
                 <div>
                     <div>
-                        <button onClick={signupHandler}>SignUp</button>
+                        <button onClick={signupPage}>SignUp</button>
+                        <button onClick={signupPage}>SignUp</button>
                     </div>
                 </div>
             </div>
