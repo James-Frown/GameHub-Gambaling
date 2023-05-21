@@ -1,4 +1,4 @@
-const signup = () => {
+const landing = () => {
 
     function signupPage() {
         console.log("signup clicked");
@@ -19,11 +19,10 @@ const signup = () => {
                         Signin Or Sign Up
                     </p>
                 </div>
-
                 <div>
                     <div>
                         <button onClick={signupPage}>SignUp</button>
-                        <button onClick={signupPage}>SignUp</button>
+                        <button onClick={loginPage}>Login</button>
                     </div>
                 </div>
             </div>
@@ -31,4 +30,4 @@ const signup = () => {
     )
 };
 
-export default signup;
+export default landing;
